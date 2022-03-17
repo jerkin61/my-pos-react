@@ -46,6 +46,10 @@ p {
   margin: 0;
 }
 
+.first-row {
+    left: 12%;
+    top: 6%;
+}
 .flex-col-hstart-vstart {
   display: flex;
   flex-direction: column;
@@ -54,11 +58,11 @@ p {
 }
 
 .frame-2 {
+  width:100%;
   position: relative;
   padding: 0px 62px 0px 0px;
   box-sizing: border-box;
   border-radius: 6px;
-  width: 540px;
   height: 72px;
 }
 
@@ -94,4 +98,10 @@ p {
   left: -6px;
   width: 91.69px;
   height: 58px;
+}
+
+.vertical-div{
+    height: 100vh;
+    width: 50%;
+    background-color: #EA7A87;
 }

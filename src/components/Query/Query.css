@@ -5,7 +5,10 @@
 p {
   margin: 0;
 }
-
+.row-2 {
+    top: 10%;
+    left: 11%;
+}
 .flex-col-hstart-vstart {
   display: flex;
   flex-direction: column;

@@ -2,7 +2,7 @@ import React from 'react'
 import './Header.css'
 const Header = () => {
   return (
-    <div className="frame-2 flex-col-hstart-vstart">
+    <div className="frame-2 flex-col-hstart-vstart first-row">
       <div className="frame-11 flex-col-hstart-vstart">
         <div className="group-694">
           <p className="txt-6100">Random Store</p>

@@ -2,7 +2,7 @@ import React from 'react'
 import './Query.css'
 const Query = () => {
     return (
-    <div className="frame-3 flex-col-hstart-vstart">
+    <div className="frame-3 flex-col-hstart-vstart row-2">
       <div className="group-378 flex-row">
         <div className="frame-12 flex-row-vend-hstart">
           <img
