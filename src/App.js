@@ -3,6 +3,8 @@ import Button from "./components/Button/Button";
 import Header from "./components/Header/Header";
 import Query from "./components/Query/Query";
 import './App.css'
+import ProductCard from "./components/ProductCard/ProductCard";
+
 
 const App = () => {
   return (
@@ -11,7 +13,16 @@ const App = () => {
       <Query /></>
       <div className='btn-row-3'
       ><Button /><Button />
-      </div>
+       </div>
+        <div className='product-column'>
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+        </div>
+     
        </div>
   )
  

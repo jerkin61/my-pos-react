@@ -5,7 +5,12 @@
 p {
   margin: 0;
 }
-
+.btn-row-3 {
+    display: inline-flex;
+    position: absolute;
+    top: 33%;
+    left: 5.5%;
+}
 .flex-col-hstart-vstart {
   display: flex;
   flex-direction: column;
