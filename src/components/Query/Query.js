@@ -1,7 +1,5 @@
 import React from 'react'
-import Button from '../Button/Button'
 import './Query.css'
-import calculator from '../../resources/calculator.png'
 const Query = () => {
     return (
     <div className="frame-3 flex-col-hstart-vstart row-2">
@@ -12,9 +10,15 @@ const Query = () => {
             alt="Not Found"
             className="el-search-alt"
           />
-          <p className="txt-746" >Search Products .. </p>
+          <p className="txt-746">Search Products .. </p>
         </div>
-        <Button style={{ width: "10px" }}><img src={calculator} alt=""/></Button>
+        <div className="group-757">
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/e7dja2immz-119%3A17?alt=media&token=7e8f0ca1-50b2-489a-83c4-8c55b2bd55cf"
+            alt="Not Found"
+            className="bi-calculator-fill"
+          />
+        </div>
         <div className="rectangle-6" />
       </div>
       <img
